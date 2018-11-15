@@ -14,7 +14,7 @@
         $answer1_1 = $answer1_2 = $answer2_1 = $answer2_2 = $answer2_3 = $answer2_4 = $answer2_5 = $answer2_6 = $answer2_7 = 0;
     ?>
         <div id="fullpage">
-            <div class="fp-section" class="active" id="section1">
+            <div class="fp-section" class="active">
                 <div class="all">
                     <p id="changeText" onclick="changeText()">welkom!</p>
                         <div class="form"> 
