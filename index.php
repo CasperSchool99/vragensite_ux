@@ -12,10 +12,15 @@
         <div id="fullpage">
             <div class="fp-section" class="active">
                 <div class="all">
-                    <p id="changeText" onclick="changeText()">Welkom!</p>
+                    <p id="changeText" onclick="changeText()">Dit is de Leijgraaf vragenlijst.</p><br/><br/><br/><br/>
                         <div class="form"> 
-                            <label for="name"> Vul hier uw naam in: </label><br/>
-                            <input type="text" id="name" name="name" placeholder="Name" required><br/>
+                            <div class="centered">
+                            <div class="group">
+                                <input type="text" id="name" name="name" required/>
+                                <label for="name">Name</label>
+                                <div class="bar"></div>
+                            </div>
+                            </div>
                             <button value="Begin" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-max="25" class="btnAnswer" onclick="moveDown('name')">Begin</button>
                         </div>
                 </div>

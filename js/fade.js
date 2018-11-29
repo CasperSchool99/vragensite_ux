@@ -17,14 +17,12 @@ function moveDown(a,submit) {
         }else{
             answers.push({ question:index,answer:a})
         }
+        console.log(answers)
         index++
         fp.moveSectionDown()
         if (submit) {
             fetch("formHandeling.php", {
                 method: "post",
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                },
                 body: {
                     name: user,
                     answers: JSON.stringify(answers)
@@ -40,6 +38,7 @@ function moveUp() {
     answers = answers.filter(function(a) {
         return !(a.question === index || a.question === index-1)
     })
+    console.log(answers)
     index--
     fp.moveSectionUp()
 }
