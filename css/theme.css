@@ -2,6 +2,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.w3-round-xlarge {
+  display: flex;
+  width: 50%;
+}
+
+.charts {
+  
+}
+
 .fp-section .fp-tableCell{
     
 }
@@ -13,12 +22,15 @@
     align-content: center;
     flex-direction: column;
     flex: 1;
+    margin-bottom: 15vh;
 }
 
 .btnBackPosition {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-content: center;
+    align-items: center;
 
 }
 
@@ -91,6 +103,7 @@
     width: 300px;
     height: 110px;
     margin: auto;
+    margin-bottom: 50.5vh;
     position: absolute;
     top: 0;
     bottom: 0;

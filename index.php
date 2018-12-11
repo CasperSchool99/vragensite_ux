@@ -10,9 +10,9 @@
 </head>
     <body>
         <div id="fullpage">
-            <div class="fp-section" class="active">
+            <div class="fp-section">
                 <div class="all">
-                    <p id="changeText" onclick="changeText()">Dit is de Leijgraaf vragenlijst.</p><br/><br/><br/><br/>
+                    <p>Dit is de Leijgraaf vragenlijst.</p><br/><br/><br/><br/>
                         <div class="form"> 
                             <div class="centered">
                             <div class="group">
@@ -27,19 +27,21 @@
             </div>
             <div class="fp-section">
                 <div class="btnBackPosition">
+                <p>Vraag 1 / 3</p><br/>
                 <button class="btn-hover color-8" onclick="moveUp()">Terug</button>
                 </div>
 
                 <div class="all">
                     <p>werkt het inklok systeem altijd goed?</p>
                     <div class="answers">  
-                        <button id="answer1_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-max="25" class="btnAnswer" onclick="moveDown(0)">nee.</button>
-                        <button id="answer1_2" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-max="25" class="btnAnswer" onclick="moveDown(1)">helemaal kut.</button>
+                        <button id="answer1_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-max="25" class="btnAnswer" onclick="moveDown(0)">Nee.</button>
+                        <button id="answer1_2" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-max="25" class="btnAnswer" onclick="moveDown(1)">Nog niet misschien</button>
                     </div>
                 </div>
             </div>
             <div class="fp-section">
                 <div class="btnBackPosition">
+                <p>Vraag 2 / 3</p><br/>
                 <button class="btn-hover color-8" onclick="moveUp()">Vorige vraag</button>
                 </div>
 
@@ -58,7 +60,8 @@
                 </div> 
             </div>
             <div class="fp-section">
-                <div class="btnBackPosition">
+                <div class="btnBackPosition">  
+                <p>Vraag 3 / 3</p><br/>
                 <button class="btn-hover color-8" onclick="moveUp()">Vorige vraag</button>
                 </div>
 
@@ -73,18 +76,32 @@
             </div>
             <div class="fp-section">
                 <div class="btnBackPosition">
+                <p>Resultaten</p> 
                 <button class="btn-hover color-8" onclick="moveUp()">Terug</button>
                 </div>
 
                 <div class="all">
-                    <p>Resultaten</p> 
+                    <div class="charts">
+                            <canvas id="chart_1" width="100" height="100"></canvas>
+                            <canvas id="chart_2" width="100" height="100"></canvas>
+                            <canvas id="chart_3" width="100" height="100"></canvas>
+                    </div>
+
+
 
                 </div> 
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.5.0/vanilla-tilt.min.js"></script>
         <script src="js/fade.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.5.0/vanilla-tilt.min.js"></script>
         <script src="vanilla-tilt.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="js/chart.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
+        <script src="js/indicator.js"></script>
     </body>
 </html>
