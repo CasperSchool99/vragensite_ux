@@ -81,27 +81,18 @@
                 </div>
 
                 <div class="all">
-                    <div class="charts">
-                            <canvas id="chart_1" width="100" height="100"></canvas>
-                            <canvas id="chart_2" width="100" height="100"></canvas>
-                            <canvas id="chart_3" width="100" height="100"></canvas>
+                    <div id="charts">
                     </div>
-
-
-
                 </div> 
             </div>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.min.js"></script>
-        <script src="js/fade.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.5.0/vanilla-tilt.min.js"></script>
-        <script src="vanilla-tilt.js"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
-        <script src="js/chart.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.5.0/vanilla-tilt.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
         <script src="js/indicator.js"></script>
+        <script src="js/fade.js"></script>
     </body>
 </html>

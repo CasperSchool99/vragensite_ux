@@ -8,7 +8,11 @@
 }
 
 .charts {
-  
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .fp-section .fp-tableCell{
